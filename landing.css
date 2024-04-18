@@ -1,0 +1,177 @@
+*{
+    font-family: Poppins;
+}
+
+:root{
+    --bg-color :  #7697a0;
+    --blue: #424769;
+    --bg: #c2c6ce;
+}
+
+body{
+   background: #7077A1;
+   
+}
+
+header{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    align-items: center;
+    font-size: 17px;
+    background: var(--blue);
+    padding: 13px 0;
+    z-index: 100;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+span{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    gap: 70px;
+}
+
+.sign{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.sign button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.2s;
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+    gap: 10px;
+   
+}
+.hero-img img{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    filter: drop-shadow(2px 2px 5px #fff3f396);
+}
+
+.hero-img{
+    height: 600px;
+    width: 600px;
+}
+
+.items img{
+    height: 150px;
+    width: 150px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    gap: 40px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 20px
+}
+
+.text h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.text p{
+    width: 60%;
+    font-size: 20px;
+    margin-top: 0;
+    
+    
+}
+
+.buy{
+    padding: 20px 80px;
+    border-radius: 0px 30px 30px 36px;
+    border: none;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: var(--blue);
+    color: white;
+    transition: all 0.2s;
+
+}
+
+.text{
+    width: 490px;
+}
+
+.item-content{
+    position: relative;
+}
+
+.rect{
+    width: 250px;
+    height: 100px;
+    background: var(--blue);
+    border-radius: 20px;
+}
+
+.item-content img{
+    position: absolute;
+    top: -55px;
+}
+
+.item-content p{
+    position: absolute;
+    color: white;
+    right: 20px;
+    top: -10px;
+    font-size: 15px;
+}
+
+
+button:hover, .buy:hover{
+    cursor: pointer;
+    background-color: #30376cb6;
+}
+
+.sign button:hover{
+    color: white;
+
+}
+
+.nav a{
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+.nav a:hover{
+    background-color: #525b92;
+
+}
